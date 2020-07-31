@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#DEBHELPER#
+
+# postrm script for plamsa-modified-defaults-mx
+
+#set -e
+
+case "$1" in
+  purge|remove) dpkg-divert --quiet                                               \
+                            --remove                                              \
+                            --package plasma-modified-defaults-mx              \
+                            --rename       \
+                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml.dpkg-distrib \
+                            /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml
+                            
+                 dpkg-divert --quiet                                               \
+                            --remove                                              \
+                            --package plasma-modified-defaults-mx              \
+                            --rename       \
+                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml.dpkg-distrib \
+                            /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
+                
+                dpkg-divert --quiet                                               \
+                               --remove                                                 \
+                               --package plasma-modified-defaults-mx            \
+                               --rename                              \
+                               --divert /usr/share/plasma/wallpapers/org.kde.image/contents/config/main.xml.dpkg-distrib \
+								/usr/share/plasma/wallpapers/org.kde.image/contents/config/main.xml
+								
+					dpkg-divert --quiet                                               \
+                               --remove                                                 \
+                               --package plasma-modified-defaults-mx            \
+                               --rename                              \
+                               --divert //usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
+								/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
+                   ;;
+
+             *) :
+                ;;
+esac 
+
+exit 0

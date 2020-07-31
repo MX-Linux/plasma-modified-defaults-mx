@@ -1,0 +1,4 @@
+org.kde.plasma.kicker/* usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config
+org.kde.plasma.kickoff/* usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config
+org.kde.image/* usr/share/plasma/wallpapers/org.kde.image/contents/config
+org.kde.plasma.desktop.defaultPanel/* /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents

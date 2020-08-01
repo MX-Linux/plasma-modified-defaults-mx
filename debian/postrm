@@ -32,7 +32,7 @@ case "$1" in
                                --remove                                                 \
                                --package plasma-modified-defaults-mx            \
                                --rename                              \
-                               --divert //usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
+                               --divert /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
 								/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
                    ;;
 

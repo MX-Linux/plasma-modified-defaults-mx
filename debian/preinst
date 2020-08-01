@@ -7,21 +7,7 @@
 #set -e
 
 case "$1" in
-  install|upgrade) dpkg-divert --quiet                                               \
-                            --remove                                              \
-                            --package partitionmanager-modified-launcher              \
-                            --rename       \
-                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml.dpkg-distrib \
-                            /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml
-                            
-                 dpkg-divert --quiet                                               \
-                            --remove                                              \
-                            --package partitionmanager-modified-launcher              \
-                            --rename       \
-                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml.dpkg-distrib \
-                            /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
-                ;;
-                dpkg-divert --quiet                                               \
+  install|upgrade)  dpkg-divert --quiet                                               \
                                --add                                                 \
                                --package plasma-modified-defaults-mx            \
                                --rename                              \
@@ -46,7 +32,7 @@ case "$1" in
                                --add                                                 \
                                --package plasma-modified-defaults-mx            \
                                --rename                              \
-                               --divert //usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
+                               --divert /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
 								/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
                    ;;
 

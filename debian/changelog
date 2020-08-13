@@ -1,8 +1,14 @@
+plasma-modified-defaults-mx (20.08.01) mx; urgency=medium
+
+  * change timout for logout/reboot/shutdown menu 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 13 Aug 2020 19:40:58 -0400
+
 plasma-modified-defaults-mx (20.07.02) mx; urgency=medium
 
   * revised defaults for panel, wallpaper, appmenu 
 
- -- Dolphin Oracle <dolphin@littlebyte>  Thu, 30 Jul 2020 22:20:08 -0400
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 30 Jul 2020 22:20:08 -0400
 
 plasma-modified-defaults-mx (20.07.01) mx; urgency=medium
 

@@ -34,6 +34,14 @@ case "$1" in
                                --rename                              \
                                --divert /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
 								/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
+								
+					dpkg-divert --quiet                                               \
+                               --remove                                                 \
+                               --package plasma-modified-defaults-mx            \
+                               --rename                              \
+                               --divert /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml.dpkg-distrib \
+								/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml
+								
                    ;;
 
              *) :

@@ -42,6 +42,13 @@ case "$1" in
                                --divert /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml.dpkg-distrib \
 								/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml
 								
+					dpkg-divert --quiet                                               \
+                               --remove                                                 \
+                               --package plasma-modified-defaults-mx            \
+                               --rename                              \
+                               --divert /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml.dpkg-distrib \
+								/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml
+								
                    ;;
 
              *) :

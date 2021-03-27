@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (21.03.01) mx; urgency=medium
+
+  * modify default taskmanager config 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 27 Mar 2021 10:19:06 -0400
+
 plasma-modified-defaults-mx (20.08.01) mx; urgency=medium
 
   * change timout for logout/reboot/shutdown menu 

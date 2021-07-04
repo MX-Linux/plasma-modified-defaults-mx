@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (21.07.01) mx; urgency=medium
+
+  * modify taskmanager and default panel configs 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 03 Jul 2021 20:03:13 -0400
+
 plasma-modified-defaults-mx (21.03.01) mx; urgency=medium
 
   * modify default taskmanager config 

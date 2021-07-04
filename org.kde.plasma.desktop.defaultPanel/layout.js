@@ -33,15 +33,15 @@ kicker.writeConfig("global", "Alt+F1")
 
 //panel.addWidget("org.kde.plasma.showActivityManager")
 panel.addWidget("org.kde.plasma.pager")
-var systemsettingsicon = panel.addWidget("org.kde.plasma.icon")
-systemsettingsicon.currentConfigGroup = ["Configuration"]
-systemsettingsicon.writeConfig("url", "file:///usr/share/applications/systemsettings.desktop")
-var dolphinicon = panel.addWidget("org.kde.plasma.icon")
-dolphinicon.currentConfigGroup = ["Configuration"]
-dolphinicon.writeConfig("url", "file:///usr/share/applications/org.kde.dolphin.desktop")
-var firefoxicon = panel.addWidget("org.kde.plasma.icon")
-firefoxicon.currentConfigGroup = ["Configuration"]
-firefoxicon.writeConfig("url", "file:///usr/share/applications/firefox.desktop")
+//var systemsettingsicon = panel.addWidget("org.kde.plasma.icon")
+//systemsettingsicon.currentConfigGroup = ["Configuration"]
+//systemsettingsicon.writeConfig("url", "file:///usr/share/applications/systemsettings.desktop")
+//var dolphinicon = panel.addWidget("org.kde.plasma.icon")
+//dolphinicon.currentConfigGroup = ["Configuration"]
+//dolphinicon.writeConfig("url", "file:///usr/share/applications/org.kde.dolphin.desktop")
+//var firefoxicon = panel.addWidget("org.kde.plasma.icon")
+//firefoxicon.currentConfigGroup = ["Configuration"]
+//firefoxicon.writeConfig("url", "file:///usr/share/applications/firefox.desktop")
 
 panel.addWidget("org.kde.plasma.taskmanager")
 

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 09 Jan 2023 17:09:58 -0500
+Source: plasma-modified-defaults-mx
+Binary: plasma-modified-defaults-mx
+Architecture: source all
+Version: 23.1
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ plasma-modified-defaults-mx - modified plasma defaults for mx and antiX linux
+Changes:
+ plasma-modified-defaults-mx (23.1) mx; urgency=medium
+ .
+   * Replace default wallpaper
+Checksums-Sha1:
+ b1235f327b8b20d85f2f4084d31dc1c2fcb689b7 1187 plasma-modified-defaults-mx_23.1.dsc
+ 23b0897e0662c057b1a1b8ff786785786eea5798 7792 plasma-modified-defaults-mx_23.1.tar.xz
+ 6106860aa0595da6e1d6d6c9410c6ce571ed8ace 8680 plasma-modified-defaults-mx_23.1_all.deb
+ 541e7494e2da330e1afd1160b12a4465fbdcee56 5221 plasma-modified-defaults-mx_23.1_amd64.buildinfo
+Checksums-Sha256:
+ e73b89233d2041bb2803aa757ea16f71cebd03b96ef13967039bb9e14a96bba2 1187 plasma-modified-defaults-mx_23.1.dsc
+ acb29635fdd61b26f8d46e96b191a5229cc7b43ed75e9b68587037757363b67e 7792 plasma-modified-defaults-mx_23.1.tar.xz
+ d9165cfe1ae8b65da0b6de7f82a29740afef81a5cbe096fdcd6f47d654c8e9a9 8680 plasma-modified-defaults-mx_23.1_all.deb
+ e261aa8ee1fdf03a167d07789c401c6e478af58967cc95a0b39b167fb2eacec9 5221 plasma-modified-defaults-mx_23.1_amd64.buildinfo
+Files:
+ 7fa08180d0904bb4bac484c7b65631b6 1187 system optional plasma-modified-defaults-mx_23.1.dsc
+ 6d7b84f371835da438dd5fae9855ff9a 7792 system optional plasma-modified-defaults-mx_23.1.tar.xz
+ cc276834c6c33f01ee79f1ecee943bcb 8680 system optional plasma-modified-defaults-mx_23.1_all.deb
+ 016d187532cba90aa26be6e06057a924 5221 system optional plasma-modified-defaults-mx_23.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmO8knsTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumA8EB/0WjUZY8YMBjeh4RAgMjtUGLRJADeZT
+2qr06ezQWtjOtMA6wtPT23DjKW2kpjaM4PHiREnkKZKLvYIw+xC69oQBcG53XtsJ
+DseftYQEv8m3pJ/S1ZXXhjHA3SFCjWeRIdDrKKlXYgFd/m3/HQeuHW/ZGQvd7+VO
+9qPPZ9DOJJ8hfz+KQ6nTg741y1lYyRbGD6o1iAyf54z5rqqqrRKBGz2Bc47/uZ0R
+JOFTz5BBRgXPcCpM5X9OFukAzvO7mEe8ux+2oBSZSye5SeTGOwF8656mx4Cbazko
+ThHnhV6KRGrJYWYdX5oHfCX0nbHcOXtW+om6/uk39qAnFu8H49Updpsm
+=WssE
+-----END PGP SIGNATURE-----

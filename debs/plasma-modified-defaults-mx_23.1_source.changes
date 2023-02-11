@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 09 Jan 2023 17:09:58 -0500
+Source: plasma-modified-defaults-mx
+Architecture: source
+Version: 23.1
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ plasma-modified-defaults-mx (23.1) mx; urgency=medium
+ .
+   * Replace default wallpaper
+Checksums-Sha1:
+ b1235f327b8b20d85f2f4084d31dc1c2fcb689b7 1187 plasma-modified-defaults-mx_23.1.dsc
+ 23b0897e0662c057b1a1b8ff786785786eea5798 7792 plasma-modified-defaults-mx_23.1.tar.xz
+ 541e7494e2da330e1afd1160b12a4465fbdcee56 5221 plasma-modified-defaults-mx_23.1_amd64.buildinfo
+Checksums-Sha256:
+ e73b89233d2041bb2803aa757ea16f71cebd03b96ef13967039bb9e14a96bba2 1187 plasma-modified-defaults-mx_23.1.dsc
+ acb29635fdd61b26f8d46e96b191a5229cc7b43ed75e9b68587037757363b67e 7792 plasma-modified-defaults-mx_23.1.tar.xz
+ e261aa8ee1fdf03a167d07789c401c6e478af58967cc95a0b39b167fb2eacec9 5221 plasma-modified-defaults-mx_23.1_amd64.buildinfo
+Files:
+ 7fa08180d0904bb4bac484c7b65631b6 1187 system optional plasma-modified-defaults-mx_23.1.dsc
+ 6d7b84f371835da438dd5fae9855ff9a 7792 system optional plasma-modified-defaults-mx_23.1.tar.xz
+ 016d187532cba90aa26be6e06057a924 5221 system optional plasma-modified-defaults-mx_23.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmO8knsTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumAVoB/4otx51K/8ONDHnO17IarQXQbCM54MI
+hB00OfzQkD8p6LRExV+f1uJcEe3potchzynujRMNiGVHj+NMym78BioA7yAM5Bqk
+mQ9BuzQNxcGGYEvYSj9d74IplXN9wqXJ1iLwOuTn188Q1H/u+C3/GKAeWziJPC16
+QTEmuKd1QjqNtnDQ9kF5GcfX95t+7Wwf1KNcoC9EYu3TjIRrIZxIA3AxBhN7NrKJ
+XjZ7d40+9TuJMwE0qHDYYo874mhlfiw9TRjg5P5UGFmgIFk2vo6fZ5bVKaKJXSxk
+MjAZnfoMwKVPhqzCEfiOpwBVKz7sx/BjC/uEp1rhltNQihWYLPMtMcqX
+=BxIQ
+-----END PGP SIGNATURE-----

@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (23.2.01mx23) mx; urgency=medium
+
+  * default23 defined in image main.xml 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 11 Feb 2023 13:19:51 -0500
+
 plasma-modified-defaults-mx (23.1) mx; urgency=medium
 
   * Replace default wallpaper

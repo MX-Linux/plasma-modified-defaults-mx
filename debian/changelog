@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (23.2.02mx23) mx; urgency=medium
+
+  * changed default wallpaper name to have an extension
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 11 Feb 2023 23:58:09 -0500
+
 plasma-modified-defaults-mx (23.2.01mx23) mx; urgency=medium
 
   * default23 defined in image main.xml 

@@ -16,7 +16,7 @@
     </entry>
     <entry name="Image" type="String">
       <label>Wallpaper image path or wallpaper name</label>
-      <default>/usr/share/wallpapers/default23</default>
+      <default>/usr/share/wallpapers/default23.png</default>
     </entry>
     <entry name="FillMode" type="int">
       <label>Sizing, cropping and positioning of the wallpaper image</label>

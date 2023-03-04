@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (23.3.01mx23) mx; urgency=medium
+
+  * add parameter to taskmanager config to take up space (new parameter)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 03 Mar 2023 19:12:37 -0500
+
 plasma-modified-defaults-mx (23.2.02mx23) mx; urgency=medium
 
   * changed default wallpaper name to have an extension

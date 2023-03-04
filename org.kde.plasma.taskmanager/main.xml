@@ -22,6 +22,10 @@
       <label>Whether to show only window tasks that are minmized.</label>
       <default>false</default>
     </entry>
+    <entry name="unhideOnAttention" type="Bool">
+      <label>Whether to unhide if a window wants attention.</label>
+      <default>true</default>
+    </entry>
     <entry name="groupingStrategy" type="Enum">
       <label>How tasks are grouped: 0 = Do Not Group, 1 = By Program Name</label>
       <default>1</default>
@@ -56,7 +60,7 @@
     </entry>
     <entry name="maxStripes" type="Int">
       <label>The maximum number of rows (in a horizontal-orientation containment, i.e. panel) or columns (in a vertical-orientation containment) to layout task buttons in.</label>
-      <default>2</default>
+      <default>1</default>
       <min>1</min>
     </entry>
     <entry name="forceStripes" type="Bool">
@@ -71,9 +75,13 @@
       <label>Whether using the mouse wheel with the mouse pointer above the widget should switch between tasks.</label>
       <default>true</default>
     </entry>
+    <entry name="wheelSkipMinimized" type="Bool">
+      <label>Whether to skip minimized tasks when switching between them using the mouse wheel.</label>
+      <default>true</default>
+    </entry>
     <entry name="highlightWindows" type="Bool">
-      <label>Whether to request the window manager highlight windows when hovering corresponding task buttons.</label>
-      <default>false</default>
+      <label>Whether to request the window manager highlight windows when hovering corresponding task tooltips.</label>
+      <default>true</default>
     </entry>
     <entry name="launchers" type="StringList">
       <label>The list of launcher tasks on the widget. Usually .desktop file or executable URLs. Special URLs such as preferred://browser that expand to default applications are supported.</label>
@@ -95,6 +103,10 @@
       <label>Whether to indicate applications that are playing audio including an option to mute them.</label>
       <default>true</default>
     </entry>
+    <entry name="fill" type="Bool">
+      <label>Whether task manager should occupy all available space.</label>
+      <default>true</default>
+    </entry>
     <entry name="taskHoverEffect" type="Bool">
       <label>Whether task buttons should change in appearance when the mouse pointer is above them.</label>
       <default>true</default>
@@ -103,21 +115,17 @@
       <label>The maximum number of text lines to show in a task button. 0 means no limit.</label>
       <default>0</default>
     </entry>
-    <entry name="iconSize" type="Enum">
-      <label>The preferred size of task button icons in a vertical task manager.</label>
-      <choices>
-            <choice name="small"/>
-            <choice name="smallMedium"/>
-            <choice name="medium"/>
-            <choice name="large"/>
-            <choice name="huge"/>
-            <choice name="enormous"/>
-      </choices>
-      <default>3</default>
-    </entry>
     <entry name="minimizeActiveTaskOnClick" type="Bool">
       <label>Whether to minimize the currently-active task when clicked. If false, clicking on the currently-active task will do nothing.</label>
       <default>true</default>
+    </entry>
+    <entry name="reverseMode" type="Bool">
+      <label>Whether to grow the tasks in according to system configuration or opposite to system configuration.</label>
+      <default>false</default>
+    </entry>
+    <entry name="iconSpacing" type="Int">
+      <label> Spacing between icons in task manager. Margin is multiplied by this value.</label>
+      <default>1</default>
     </entry>
   </group>
 

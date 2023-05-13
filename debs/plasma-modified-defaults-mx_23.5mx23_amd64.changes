@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 13 May 2023 09:44:39 -0400
+Source: plasma-modified-defaults-mx
+Binary: plasma-modified-defaults-mx
+Architecture: source all
+Version: 23.5mx23
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ plasma-modified-defaults-mx - modified plasma defaults for mx and antiX linux
+Changes:
+ plasma-modified-defaults-mx (23.5mx23) mx; urgency=medium
+ .
+   * Add libreoffice-theme.sh to etc/skel/.config/plasma-workspace/env/ to make sure it can use libreoffice-qt5
+Checksums-Sha1:
+ a411daaa85fe0ce39ebac652e35b99ecea232d79 1203 plasma-modified-defaults-mx_23.5mx23.dsc
+ 51752c6b5cfddf808835b8e1ca0cbd1b280984c5 8132 plasma-modified-defaults-mx_23.5mx23.tar.xz
+ 8607530387a2922ac07c754d4c26ff5b2e9f8882 9220 plasma-modified-defaults-mx_23.5mx23_all.deb
+ a6e3c189ac80995c1655852c9f02689db9964643 5253 plasma-modified-defaults-mx_23.5mx23_amd64.buildinfo
+Checksums-Sha256:
+ f8b0b443ccb4a7c2bcc117709511e4547e32cc103177ed2ecd47b6e7a79bdf22 1203 plasma-modified-defaults-mx_23.5mx23.dsc
+ 3c72a99d28161571a8427f6c5a6f91b03ab97c0facd8da9470188b11d6e80102 8132 plasma-modified-defaults-mx_23.5mx23.tar.xz
+ 7dae8fa1da1514a0fea4358d6a1fda61548a83291666f33c1b46485fac0da8ff 9220 plasma-modified-defaults-mx_23.5mx23_all.deb
+ be51f8e439d65d1cfb911ed19ac5cb480ac69aae2e1bf7fed243cc249f0d8086 5253 plasma-modified-defaults-mx_23.5mx23_amd64.buildinfo
+Files:
+ 59ef917416db45c361717c0c9083a360 1203 system optional plasma-modified-defaults-mx_23.5mx23.dsc
+ f5ac40badefdeafe7f89242f3518cd36 8132 system optional plasma-modified-defaults-mx_23.5mx23.tar.xz
+ 435408b3b1e9b7f7f9de26c48d497e58 9220 system optional plasma-modified-defaults-mx_23.5mx23_all.deb
+ cedeb1334ba5134a20ab9daf46274cff 5253 system optional plasma-modified-defaults-mx_23.5mx23_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmRflOwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumF19B/9R5XtW/x94vy/uWvu6MUS8CN5IodC9
+Nf9BipUVVb2SlSryu/lU1K/VclCTUhuDXGhCifQ6xk+GhvNLC8dR4RFgiQZeXGwk
+At5JnD0O8JNdedHrZuyo8NwnP2StxcMyQFmacSzlJswUZ22Nzcn/jOIdlP1kLqSD
+CNKGRkUxJjkYDhmb8wR0P0feUsZPHdU9D1q3TsbG9Msnn05LK8rgmwmFs4iOTh+q
+r8YuVfFUWzGQPoxWUOOvNdRlPEBb4rQbxBaHf2L65prH9uUGjBnsQdvKAdzr+At2
+HUt4wMS0btKwHZHfQ+9OyxXeVi6UwLAzWP5Z7byQMA8Rkg3KRnLqrA5E
+=XVez
+-----END PGP SIGNATURE-----

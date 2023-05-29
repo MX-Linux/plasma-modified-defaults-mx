@@ -15,7 +15,7 @@
       <default>false</default>
     </entry>
     <entry name="customButtonImage" type="Url">
-      <label>The URL of the custtom image to use instead of an icon in the compact representation (e.g. on a small panel).</label>
+      <label>The URL of the custom image to use instead of an icon in the compact representation (e.g. on a small panel).</label>
       <default></default>
     </entry>
 
@@ -25,7 +25,7 @@
     </entry>
     <entry name="limitDepth" type="Bool">
       <label>Whether to flatten top-level menu categories to a single level instead of displaying sub-categories.</label>
-      <default>true</default>
+      <default>false</default>
     </entry>
     <entry name="alphaSort" type="Bool">
       <label>Whether to sort menu contents alphabetically or use manual/system sort order.</label>
@@ -58,7 +58,7 @@
       <default>true</default>
     </entry>
     <entry name="showRecentDocs" type="Bool">
-      <label>Whether to show the "Recent Documents" category.</label>
+      <label>Whether to show the "Recent Files" category.</label>
       <default>true</default>
     </entry>
     <entry name="showRecentContacts" type="Bool">

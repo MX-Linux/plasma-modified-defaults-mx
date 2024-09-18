@@ -2,52 +2,19 @@
 
 #DEBHELPER#
 
-# preinst script for plasma-modified-defaults-mx
+# preinst script for desktop-defaults-mx-kde
 
 #set -e
 
 case "$1" in
   install|upgrade)  dpkg-divert --quiet                                               \
                                --add                                                 \
-                               --package plasma-modified-defaults-mx            \
+                               --package desktop-defaults-mx-kde            \
                                --rename                              \
-                               --divert /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml.dpkg-distrib \
-								/usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml
+                               --divert /etc/xdg/kcm-about-distrorc.dpkg-distrib \
+								/etc/xdg/kcm-about-distrorc
 								
-					dpkg-divert --quiet                                               \
-                               --add                                                 \
-                               --package plasma-modified-defaults-mx            \
-                               --rename                              \
-                               --divert /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml.dpkg-distrib \
-								/usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
-								
-					dpkg-divert --quiet                                               \
-                               --add                                                 \
-                               --package plasma-modified-defaults-mx            \
-                               --rename                              \
-                               --divert /usr/share/plasma/wallpapers/org.kde.image/contents/config/main.xml.dpkg-distrib \
-								/usr/share/plasma/wallpapers/org.kde.image/contents/config/main.xml
-								
-					dpkg-divert --quiet                                               \
-                               --add                                                 \
-                               --package plasma-modified-defaults-mx            \
-                               --rename                              \
-                               --divert /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js.dpkg-distrib \
-								/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
-								
-					dpkg-divert --quiet                                               \
-                               --add                                                 \
-                               --package plasma-modified-defaults-mx            \
-                               --rename                              \
-                               --divert /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml.dpkg-distrib \
-								/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml
-								
-					dpkg-divert --quiet                                               \
-                               --add                                                 \
-                               --package plasma-modified-defaults-mx            \
-                               --rename                              \
-                               --divert /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml.dpkg-distrib \
-								/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml
+					
                    ;;
 
                 *) :

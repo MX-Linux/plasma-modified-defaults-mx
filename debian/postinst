@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-remove" ] ; then
+
+    if [ -e "/etc/skel/.config/plasma-workspace/env/libreoffice-theme.sh" ]; then
+        rm /etc/skel/.config/plasma-workspace/env/libreoffice-theme.sh
+    fi
+fi
+
+#DEBHELPER#

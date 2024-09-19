@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (23.9.01mx23) mx; urgency=medium
+
+  * remove libreoffice-theme.sh
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 18 Sep 2024 20:01:55 -0400
+
 plasma-modified-defaults-mx (23.5.01mx23) mx; urgency=medium
 
   * adjust default kickoff and kicker setups

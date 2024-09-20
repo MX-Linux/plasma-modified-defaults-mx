@@ -2,8 +2,8 @@ plasma-modified-defaults-mx (23.9.01mx23) mx; urgency=medium
 
   * remove libreoffice-theme.sh in future builds
   * file remains for existing users
-  * users can remove /etc/skel/.config/plasma-workspace/libreoffice-theme.sh manually if libreoffice-kf5 is installed
-  * users can remove $HOME/.config/plasma-workplace/libreoffice-theme.sh manually if libreoffice-kf5 is installed
+  * users can remove /etc/skel/.config/plasma-workspace/env/libreoffice-theme.sh manually if libreoffice-kf5 is installed
+  * users can remove $HOME/.config/plasma-workplace/env/libreoffice-theme.sh manually if libreoffice-kf5 is installed
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 18 Sep 2024 20:01:55 -0400
 

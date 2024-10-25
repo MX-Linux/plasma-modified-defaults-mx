@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (24.10.01mx23) mx; urgency=medium
+
+  * restore missing dpkg-diverts 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 25 Oct 2024 13:49:35 -0400
+
 plasma-modified-defaults-mx (23.9.01mx23) mx; urgency=medium
 
   * remove libreoffice-theme.sh in future builds

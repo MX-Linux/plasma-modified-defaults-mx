@@ -1,6 +1,8 @@
 plasma-modified-defaults-mx (25.05.01mx25) mx; urgency=medium
 
   * trixie, set wallpaper
+  * update xml files kicker, kickoff, default panel and taskmanager
+  * update logout configuration
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 04 May 2025 14:03:18 -0400
 

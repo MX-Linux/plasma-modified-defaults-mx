@@ -13,6 +13,10 @@
             <label>Text label for the Panel button</label>
             <default></default>
         </entry>
+        <entry name="appNameFormat" type="Int">
+            <label>The format used in the display of application names: 0 = NameOnly, 1 = GenericNameOnly, 2 = NameAndGenericName, 3 = GenericNameAndName</label>
+            <default>2</default>
+        </entry>
         <entry name="favorites" type="StringList">
             <label>List of general favorites. Supported values are menu id's (usually .desktop file names), special URLs that expand into default applications (e.g. preferred://browser), document URLs and KPeople contact URIs.</label>
             <default>conky-toggle.desktop,libreoffice-startcenter.desktop,mx-tools.desktop,mx-packageinstaller.desktop,Help.desktop,org.kde.konsole.desktop,org.kde.ksysguard.desktop,Quick_System_Info.desktop</default>
@@ -32,6 +36,10 @@
         <entry name="systemApplications" type="StringList">
             <label>List of applications at the top of the "Computer" tab.</label>
             <default>systemsettings.desktop,org.kde.kinfocenter.desktop,org.kde.discover.desktop</default>
+        </entry>
+        <entry name="paneSwap" type="Bool">
+            <label>Whether to swap the sidebar and content panes</label>
+            <default>false</default>
         </entry>
         <entry name="favoritesDisplay" type="Int">
             <label>How to display favorites: 0 = Grid, 1 = List</label>
@@ -55,6 +63,10 @@
         </entry>
         <entry name="compactMode" type="Bool">
             <label>Whether to use a compact display style for list items</label>
+            <default>false</default>
+        </entry>
+        <entry name="switchCategoryOnHover" type="Bool">
+            <label>Whether to allow switching category items on hover</label>
             <default>false</default>
         </entry>
     </group>

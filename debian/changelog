@@ -1,3 +1,9 @@
+plasma-modified-defaults-mx (25.05.01mx25) mx; urgency=medium
+
+  * trixie, set wallpaper
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 04 May 2025 14:03:18 -0400
+
 plasma-modified-defaults-mx (24.10.01mx23) mx; urgency=medium
 
   * restore missing dpkg-diverts 

@@ -7,7 +7,7 @@
     <group name="General">
         <entry name="icon" type="String">
             <label>The name of the icon used in the compact representation (e.g. on a small panel).</label>
-            <default>/usr/local/share/icons/mxfcelogo-rounded.png</default>
+            <default>/usr/share/icons/mxfcelogo-rounded.png</default>
         </entry>
         <entry name="menuLabel" type="string">
             <label>Text label for the Panel button</label>

@@ -1,6 +1,0 @@
-#On login, KDE will process .sh files in this folder and will keep enviornment variables set here.
-#To pass environment variables, create a .sh file and use the "export" command.
-
-#Example
-#libreoffic-theme.sh
-#export SAL_USE_VCLPLUGIN=qt5

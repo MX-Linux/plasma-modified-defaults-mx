@@ -1,4 +1,3 @@
-env/* /etc/skel/.config/plasma-workspace/env 
 org.kde.breeze.desktop/logout/*	/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout
 org.kde.image/* usr/share/plasma/wallpapers/org.kde.image/contents/config
 org.kde.plasma.desktop.defaultPanel/* /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents

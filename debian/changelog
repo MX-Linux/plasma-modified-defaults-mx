@@ -1,6 +1,15 @@
+plasma-modified-defaults-mx (25.11.01mx25) mx; urgency=medium
+
+  * remove README
+  * ensure env folder exists
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 04 Nov 2025 20:48:04 -0500
+
 plasma-modified-defaults-mx (25.06.01mx25) mx; urgency=medium
 
   * update xml files kicker, kickoff, for /usr/local migration
+  
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 05 Jun 2025 12:00:00 -0400
 
 plasma-modified-defaults-mx (25.05.01mx25) mx; urgency=medium
 

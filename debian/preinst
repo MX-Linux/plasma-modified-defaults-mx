@@ -48,6 +48,8 @@ case "$1" in
                                --rename                              \
                                --divert /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml.dpkg-distrib \
 								/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml
+								
+				   mkdir -p /etc/skel/.config/plasma-workspace/env
 
                    ;;
 

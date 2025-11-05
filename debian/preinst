@@ -48,6 +48,11 @@ case "$1" in
                                --rename                              \
                                --divert /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml.dpkg-distrib \
 								/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml
+					
+					#remove old readme
+					if [ -e /etc/skel/.config/plasma-workspace/env/README ]; then
+						rm -f /etc/skel/.config/plasma-workspace/env/README 
+					fi
 
                    ;;
 

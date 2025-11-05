@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#DEBHELPER#
+
+# postinstall script for desktop-defaults-mx-kde
+
+#set -e
+
+case "$1" in
+  install|upgrade)  #make sure env folder is present
+                    mkdir -p /etc/skel/.config/plasma-workspace/env
+                   ;;
+
+             *) :
+                ;;
+esac 
+
+exit 0

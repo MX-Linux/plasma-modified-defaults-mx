@@ -21,7 +21,9 @@ if (panel.formFactor === "horizontal") {
     }
 }
 
-panel.addWidget("org.kde.plasma.kicker")
+var launcher = panel.addWidget("org.kde.plasma.kicker")
+launcher.currentConfigGroup = ["General"]
+launcher.writeConfig("icon", "/usr/share/icons/mxfcelogo-rounded.png")
 //panel.addWidget("org.kde.plasma.showActivityManager")
 panel.addWidget("org.kde.plasma.pager")
 panel.addWidget("org.kde.plasma.icontasks")

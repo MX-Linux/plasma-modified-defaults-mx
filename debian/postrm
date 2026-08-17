@@ -7,21 +7,7 @@
 #set -e
 
 case "$1" in
-  purge|remove) dpkg-divert --quiet                                               \
-                            --remove                                              \
-                            --package plasma-modified-defaults-mx              \
-                            --rename       \
-                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml.dpkg-distrib \
-                            /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml
-                            
-                 dpkg-divert --quiet                                               \
-                            --remove                                              \
-                            --package plasma-modified-defaults-mx              \
-                            --rename       \
-                            --divert /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml.dpkg-distrib \
-                            /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
-                
-                dpkg-divert --quiet                                               \
+  purge|remove)    dpkg-divert --quiet                                               \
                                --remove                                                 \
                                --package plasma-modified-defaults-mx            \
                                --rename                              \

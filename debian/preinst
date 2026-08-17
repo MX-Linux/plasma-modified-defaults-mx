@@ -7,20 +7,23 @@
 #set -e
 
 case "$1" in
-  install|upgrade)  dpkg-divert --quiet                                               \
-                            --add                                              \
+  install|upgrade)
+                if [[ $(dpkg-divert --list plasma-modified-defaults-mx) =~ kickeroff ]]; then
+                    dpkg-divert --quiet                                               \
+                            --remove                                              \
                             --package plasma-modified-defaults-mx              \
                             --rename       \
                             --divert /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml.dpkg-distrib \
                             /usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml
 
                  dpkg-divert --quiet                                               \
-                            --add                                              \
+                            --remove                                              \
                             --package plasma-modified-defaults-mx              \
                             --rename       \
                             --divert /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml.dpkg-distrib \
                             /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
 
+               fi
                 dpkg-divert --quiet                                               \
                                --add                                                 \
                                --package plasma-modified-defaults-mx            \

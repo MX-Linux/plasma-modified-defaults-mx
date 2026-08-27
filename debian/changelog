@@ -2,6 +2,7 @@ plasma-modified-defaults-mx (26.8.01mx27) mx; urgency=medium
 
   * set icon with default panel
   * remove kicker and kickoff overrides
+  * adjust default wallpaper for mx27
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 17 Aug 2026 19:16:42 -0400
 

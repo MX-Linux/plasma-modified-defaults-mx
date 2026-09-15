@@ -1,0 +1,53 @@
+# PKGBUILD for building on the Open Build Service.
+#
+# This package is not in AUR and has no committed source tarball, so the OBS
+# tar_scm service packs the checkout into one. That tarball has a constant name
+# rather than a versioned one, so pkgver here is free to track debian/changelog
+# and a release does not require editing the OBS service as well.
+#
+# The repository-root PKGBUILD installs straight from $startdir and cannot work
+# on OBS.
+
+# Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+pkgname=plasma-modified-defaults-mx
+pkgver=25.11.01mx25
+pkgrel=1
+pkgdesc="modified plasma defaults for mx and antiX linux"
+arch=('any')
+url="https://github.com/MX-Linux/plasma-modified-defaults-mx"
+license=('GPL')
+depends=()
+makedepends=()
+source=("${pkgname}-source.tar")
+sha256sums=('SKIP')
+
+# tar_scm unpacks to <repository>-<versionformat>; both are fixed here.
+_srcdir="${pkgname}-source"
+
+package() {
+    cd "${srcdir}/${_srcdir}"
+
+    # Install logout configuration
+    install -Dm644 "org.kde.breeze.desktop/logout/Logout.qml" \
+        "$pkgdir/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml"
+
+    # Install wallpaper configuration
+    install -Dm644 "org.kde.image/main.xml" \
+        "$pkgdir/usr/share/plasma/wallpapers/org.kde.image/contents/config/main.xml"
+
+    # Install default panel layout
+    install -Dm644 "org.kde.plasma.desktop.defaultPanel/layout.js" \
+        "$pkgdir/usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js"
+
+    # Install kicker configuration
+    install -Dm644 "org.kde.plasma.kicker/main.xml" \
+        "$pkgdir/usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/config/main.xml"
+
+    # Install kickoff configuration
+    install -Dm644 "org.kde.plasma.kickoff/main.xml" \
+        "$pkgdir/usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml"
+
+    # Install taskmanager configuration
+    install -Dm644 "org.kde.plasma.taskmanager/main.xml" \
+        "$pkgdir/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml"
+}
